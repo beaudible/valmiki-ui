@@ -1,8 +1,19 @@
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
+import "./App.css"
+import Header from "./components/common/heading/Header"
 
-
-function App() {
-  return <h2>Welcome To Valmiki Ashram !</h2>
-    
+const App = () => {
+  return (
+    <>
+     <Router>
+        <Header />
+        <Switch>
+       
+        </Switch>
+       
+      </Router>
+    </>
+  )
 }
 
-export default App;
+export default App
