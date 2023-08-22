@@ -8,7 +8,8 @@
 
 body{
     font-family: "Roboto", sans-serif;
-    background-color: #bdbaba;
+    /* background-color: #f8f8f8; */
+    background-color: #f8f8f8;
 }
 
 .container {
@@ -59,3 +60,32 @@ body{
     box-shadow: 0 24px 36px -11px rgb(0 0 0 / 9%);
     transition: 0.5s;
   }
+
+  button i {
+    margin-left: 20px;
+  }
+  button:hover {
+    box-shadow: none;
+  }
+
+  .primary-btn {
+    background-color: #1eb2a6;
+    color: #fff;
+  }
+
+  #heading {
+    text-align: center;
+    padding: 40px 0;
+  }
+  #heading h3 {
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #1eb2a6;
+    text-transform: uppercase;
+  }
+  #heading h1 {
+    font-size: 45px;
+    margin: 20px 0;
+    text-transform: capitalize;
+  }
+  
